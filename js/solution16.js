@@ -11,5 +11,5 @@
 // 0 => [0]
 
 function digitize(n) {
-    return Array.from(String(n), Number).reverse();
-  }
+  return Array.from(String(n), Number).reverse();
+}
