@@ -16,6 +16,7 @@
 function order(words){
   
     return words.split(' ').sort(function(a,b){
+        //use regex to find the non
       return a.match(/\d/) - b.match(/\d/);
     }).join(' ');
   }
