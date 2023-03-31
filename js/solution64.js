@@ -1,24 +1,19 @@
-// Acknowledgments:
+// Factorial
 
-// I thank yvonne-liu for the idea and for the example tests :)
+// Your task is to write function factorial.
 
-// Description:
+// https://en.wikipedia.org/wiki/Factorial
 
-// Encrypt this!
 
-// You want to create secret messages which can be deciphered by the Decipher this! kata. Here are the conditions:
-
-// Your message is a string containing space separated words.
-// You need to encrypt each word in the message using the following rules:
-// The first letter must be converted to its ASCII code.
-// The second letter must be switched with the last letter
-// Keepin' it simple: There are no special characters in the input.
-// Examples:
-
-// encryptThis("Hello") === "72olle"
-// encryptThis("good") === "103doo"
-// encryptThis("hello world") === "104olle 119drlo"
-
-var encryptThis = function(text) {
-    // Implement me! :)
+function factorial(n){
+    let product = 1;
+    if(n === 0){
+      return 1
+    }
+    else{
+      for(let i = 1; i <= n; i++){
+        product = product * i
+      }
+    }
+    return product
   }
