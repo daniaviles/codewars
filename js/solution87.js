@@ -6,6 +6,7 @@
 // i -> 3
 // o -> 4
 // u -> 5
+
 // For example, encode("hello") would return "h2ll4". There is no need to worry about uppercase vowels in this kata.
 
 // Step 2: Now create a function called decode() to turn the numbers back into vowels according to the same pattern shown above.
