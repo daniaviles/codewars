@@ -14,4 +14,4 @@ function minSum(arr) {
     sum += arr[i] * arr[arr.length - 1 - i]
   }
   return sum
-}
+}``
